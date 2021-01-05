@@ -1,0 +1,10 @@
+{
+        "homepage": "https://forum.civa.jp/viewtopic.php?f=3&t=622",
+        "serverMultiple": "1",
+        "promos": {
+                "1.12.2-latest": "β1.0"
+        },
+        "1.12.2": {
+                "β1.0": "MODをリリース\nMOD is released.",
+        }
+}
