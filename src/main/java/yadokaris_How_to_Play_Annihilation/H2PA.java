@@ -43,13 +43,13 @@ import yadokaris_How_to_Play_Annihilation.questgroups.PrepareBowQuestGroup;
 import yadokaris_How_to_Play_Annihilation.questgroups.PrepareInvisibleAttackQuestGroup;
 import yadokaris_How_to_Play_Annihilation.questgroups.PrepareToolsQuestGroup;
 
-@Mod(modid = "yadokaris_how_to_play_annihilation", name = "yadokari's How to Play Annihilation", version = "β1.0", updateJSON = "https://raw.githubusercontent.com/yadokari1130/How-to-Play-Annihilation/master/update.json")
+@Mod(modid = "yadokaris_how_to_play_annihilation", name = "yadokari's How to Play Annihilation", version = "β1.0.1", updateJSON = "https://raw.githubusercontent.com/yadokari1130/How-to-Play-Annihilation/master/update.json")
 public class H2PA {
 
 	static String playerName;
 	public static EntityPlayer player;
 	private static Field overlayMessageField = null;
-	static final String version = "β1.0";
+	static final String version = "β1.0.1";
 	static String path;
 	public static String job;
 	public static QuestGroup currentGroup;
@@ -235,6 +235,6 @@ public class H2PA {
 	}
 
 	public static String getURL(String name) {
-		return "https://twitter.com/intent/tweet?hashtags=Shotbow,Annihilation,マインクラフト,Minecraft&ref_src=twsrc%5Etfw&text=Annihilationでクエスト：+" + name + "+をクリアしました！&tw_p=tweetbutton&url=https%3A%2F%2Ftwitter.com&via=Y4D0K4R1";
+		return "https://twitter.com/intent/tweet?hashtags=Shotbow,Annihilation,マインクラフト,Minecraft&ref_src=twsrc%5Etfw&text=Annihilationでクエスト：+" + name + "+をクリアしました！&tw_p=tweetbutton&url=https%3A%2F%2Fforum.civa.jp%2Fviewtopic.php%3Ff%3D3%26t%3D622&via=Y4D0K4R1";
 	}
 }
