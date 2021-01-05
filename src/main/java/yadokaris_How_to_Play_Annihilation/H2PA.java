@@ -43,7 +43,7 @@ import yadokaris_How_to_Play_Annihilation.questgroups.PrepareBowQuestGroup;
 import yadokaris_How_to_Play_Annihilation.questgroups.PrepareInvisibleAttackQuestGroup;
 import yadokaris_How_to_Play_Annihilation.questgroups.PrepareToolsQuestGroup;
 
-@Mod(modid = "yadokaris_how_to_play_annihilation", name = "yadokari's How to Play Annihilation", version = "β1.0", updateJSON = "")
+@Mod(modid = "yadokaris_how_to_play_annihilation", name = "yadokari's How to Play Annihilation", version = "β1.0", updateJSON = "https://raw.githubusercontent.com/yadokari1130/How-to-Play-Annihilation/master/update.json")
 public class H2PA {
 
 	static String playerName;
@@ -92,8 +92,8 @@ public class H2PA {
 			}
 		}
 
-		overlayMessageField = ReflectionHelper.findField(GuiIngame.class, "overlayMessage");
-		//overlayMessageField = ReflectionHelper.findField(GuiIngame.class, "field_73838_g");
+		//overlayMessageField = ReflectionHelper.findField(GuiIngame.class, "overlayMessage");
+		overlayMessageField = ReflectionHelper.findField(GuiIngame.class, "field_73838_g");
 	}
 
 	@EventHandler

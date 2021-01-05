@@ -57,7 +57,7 @@ public class ChatEvent {
 			new Thread(() -> {
 				String update = null;
 				try {
-					update = IOUtils.toString(new URL("https://raw.githubusercontent.com/yadokari1130/yadokaris-Status-HUD-Plus/master/update.json"), "UTF-8");
+					update = IOUtils.toString(new URL("https://raw.githubusercontent.com/yadokari1130/How-to-Play-Annihilation/master/update.json"), "UTF-8");
 				}
 				catch (IOException e) {
 					e.printStackTrace();
